@@ -4,7 +4,7 @@ Credits:
 I'm not creator of this gadget!
 
 
-Instruction:
+Instructions:
 - Edit
 - Create NAME.rar scrchive
 - Rename NAME.rar into NAME.gadget
