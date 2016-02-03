@@ -1,0 +1,97 @@
+<html >
+    <head>
+		<meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <title>eQGamers.com Toujane Only</title>
+        <style type="text/css">
+        body
+        {
+            margin: 0;
+            width: 137px;
+            height: 235px;
+            font-family: verdana;
+            font-weight: bold;
+            font-size: small;
+      }
+        #gadgetContent
+        {
+            margin-top: 0px;
+            width: 160px;
+            vertical-align: middle;
+            text-align: center;
+            overflow: hidden;
+			margin-left: -22px;
+			
+        }
+        </style>
+  
+  <script type="text/jscript" language="jscript">
+System.Gadget.settingsUI = "postavke.html";
+  function nahoda()
+  {
+  	fales = "A"
+	for (i=1; i <= 10; i++) {
+		byt = Math.round(Math.random()*20);
+ 		fales = fales + byt;
+		 }
+	return fales
+  }
+    	
+
+
+
+  function callRefresh()
+  {
+    refreshImg();
+    setTimeout('callRefresh()', 180000);
+  }
+
+  function refreshImg()
+  {
+	pic.src = 'http://cache.www.gametracker.com/server_info/185.4.149.17:28817/b_160x400_T1.png?' + nahoda();
+	movebtn();
+  }
+  
+  
+  function btnon()
+  {
+   	btn.src = 'refresh2.png';
+  }
+  function btnoff()
+  {
+   	btn.src = 'refresh1.png';
+  }
+  
+ var pozice=210; 
+ function movebtn()
+
+ {
+ 	 btn.style.top = pozice;
+	 pozice = pozice - 6;
+	 x = setTimeout('movebtn()', 2);
+	 if (pozice <= -25) {					 
+	 					clearTimeout(x); 	
+						btn.style.top=210;
+						pozice = 210;
+	 				  }	
+ }
+ 
+
+  
+  </SCRIPT>
+  </head>
+
+
+
+<body onLoad="callRefresh();" background="pozadina.png" bgcolor="#808080">
+<div id=gadgetContent>
+<a href="cod4://185.4.149.17:28817" target="_blank">
+<img NAME="pic" src="http://cache.www.gametracker.com/server_info/185.4.149.17:28817/b_160x400_T1.png" border="0" width="160" height="235" />
+</a>
+
+
+
+<img id=btn src="tlac1.png" style="cursor: hand;position: absolute; top: 210px; left: 29px" onmouseover="btnon()" onmouseout="btnoff()" onclick="refreshImg()">
+
+</div>
+</body>
+</html>

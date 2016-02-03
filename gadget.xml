@@ -1,0 +1,19 @@
+<gadget>
+  <name>eQGamers Toujane Only</name>
+  <version>0.0.1</version>
+  <copyright>&#169; Gogo</copyright>
+  <description>eQGamers Toujane Only</description>
+  <icons>
+    <icon height="50" width="50" src="icon.gif" />
+  </icons>
+
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="prikaz.html" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+      <defaultImage src="icon.gif" />
+    </host>
+  </hosts>
+</gadget>
+ 
