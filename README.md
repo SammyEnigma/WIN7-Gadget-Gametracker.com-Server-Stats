@@ -1,12 +1,11 @@
-#Windows 7 Gadget - Gametracker.com Server Stats
-
-Credits:
-I'm not creator of this gadget!
-
+#WIN7 Gadget - Gametracker.com Server Stats
 
 Instructions:
-- Edit
-- Create NAME.rar acrchive
+- Edit *.html files
+- Create NAME.rar acrchive with all included files
 - Rename NAME.rar into NAME.gadget
 - Install as Windows 7 gadget
-- Have fun! :D
+- Share and Have fun! :D
+ 
+
+Notice: This also work for all gametracker.com games and voice servers!
