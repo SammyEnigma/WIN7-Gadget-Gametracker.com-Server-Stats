@@ -2,7 +2,7 @@
 
 Instructions:
 - Edit *.html files
-- Create NAME.rar acrchive with all included files
+- Create NAME.rar archive with all included files
 - Rename NAME.rar into NAME.gadget
 - Install as Windows 7 gadget
 - Share and Have fun! :D
